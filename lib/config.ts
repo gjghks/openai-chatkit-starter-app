@@ -17,6 +17,11 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
     icon: "circle-question",
   },
   {
+    label: "협력사의 돌발 계약 해지 시 조치 방법 알려주세요.",
+    prompt: "협력사가 갑자기 물량이 없다고 해서 계약을 해지하려고 하는데 어떻게 하면 되나요?.",
+    icon: "circle-question",
+  },  
+  {
     label: "방송에서 비속어 및 욕설을 사용하여 방심위 제재를 받은 케이스.",
     prompt: "방송에서 출연자가 비속어 및 욕설을 사용하여 방심위 제재를 받은 케이스 알려줘.",
     icon: "circle-question",
