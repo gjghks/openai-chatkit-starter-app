@@ -6,7 +6,6 @@ import {
   STARTER_PROMPTS,
   PLACEHOLDER_INPUT,
   GREETING,
-  CHATKIT_GREETING_EMPTY,
   CREATE_SESSION_ENDPOINT,
   WORKFLOW_ID,
   getThemeConfig,
@@ -270,7 +269,6 @@ export function ChatKitPanel({
     },
     startScreen: {
       greeting: GREETING,
-      //greeting: CHATKIT_GREETING_EMPTY, // ChatKit 기본 인사말 숨김
       prompts: STARTER_PROMPTS,
     },
     composer: {
@@ -346,7 +344,7 @@ export function ChatKitPanel({
   }
 
   return (
-    <div className="relative pb-8 flex h-[90vh] w-full rounded-2xl flex-col overflow-hidden bg-white shadow-sm transition-colors dark:bg-slate-900 whitespace-pre-line">
+    <div className="relative pb-8 flex h-[90vh] w-full rounded-2xl flex-col overflow-hidden bg-white shadow-sm transition-colors dark:bg-slate-900">
       <ChatKit
         key={widgetInstanceKey}
         control={chatkit.control}
