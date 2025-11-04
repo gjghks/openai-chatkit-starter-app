@@ -17,6 +17,11 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
     icon: "circle-question",
   },
   {
+    label: "방송에서 비속어 및 욕설을 사용하여 방심위 제재를 받은 케이스.",
+    prompt: "방송에서 출연자가 비속어 및 욕설을 사용하여 방심위 제재를 받은 케이스 알려줘.",
+    icon: "circle-question",
+  },
+  {
     label: "매출액 단서조항 알려주세요.",
     prompt: "매출액 단서조항 알려주세요.",
     icon: "circle-question",
